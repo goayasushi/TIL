@@ -45,3 +45,7 @@ Today I Learned
 ## progate
 ### 2023/4/21
 https://prog-8.com/java/study/1/6#/12
+
+## training
+### 2023/4/27
+n番目のフィボナッチ数の出力

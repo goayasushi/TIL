@@ -4,7 +4,7 @@ standard_min = input[1] - input[2]
 standard_max = input[1] + input[2]
 
 carrots = []
-index = 0
+index = 1
 
 carrot_sum.times do
   carrot = gets.split(' ').map(&:to_i)
@@ -13,7 +13,6 @@ carrot_sum.times do
   index += 1
   carrot = []
 end
-
 
 carrots_select = []
 
@@ -33,6 +32,7 @@ else
   carrots_select.each do |n|
     if weight < n[0]
       carrot_num = n[2]
+      weight = n[0]
     end
   end
   puts carrot_num
